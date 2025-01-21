@@ -1,7 +1,29 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.2",
-    "nodejs": "^0.0.0"
-  }
+    "nodejs": "^0.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "name": "cohort3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoyalApoorv/cohort3.git"
+  },
+  "author": "GoyalApoorv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoyalApoorv/cohort3/issues"
+  },
+  "homepage": "https://github.com/GoyalApoorv/cohort3#readme",
+  "description": "Week 8 assignment -- Course Selling App."
 }

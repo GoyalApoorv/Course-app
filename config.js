@@ -1,0 +1,7 @@
+const JWT_USER_PASSWORD = "asd123123";
+const JWT_ADMIN_PASSWORD = "asd112233"
+
+module.exports = {
+    JWT_ADMIN_PASSWORD,
+    JWT_USER_PASSWORD
+}
